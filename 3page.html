@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hair Style Gallery</title>
+<style>
+    /* Style for the container */
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap:20px;
+        padding: 100px;
+        text-align: center;
+        background-color: aqua;
+        background-size: cover;
+       
+       
+    }
+
+    /* Style for the image */
+    .image {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-style:groove;
+        border-color: black;
+        justify-content: center;
+        display:flex;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <!-- Hair style images -->
+        <div class="item">
+            <img class="image" src="c:\Users\Administrator\Downloads\hair style2.png"alt="Hair Style 1">
+            <p><b>Under cut with long hair</b></p>
+        </div>
+        <div class="item">
+            <img class="image" src="c:\Users\Administrator\Downloads\hairstyle0.png " alt="Hair Style 2">
+            <P><b>Buzz cut</b></P>
+        </div>
+        <div class="item">
+            <img class="image" src="c:\Users\Administrator\Downloads\hairstyle4.jpg" alt="Hair Style 3">
+            <P><b>High fade</b></P>
+        </div>
+        <div class="item">
+        <img class="image" src="c:\Users\Administrator\Downloads\hairstyle3.jpg" alt="Hair Style 3">
+            <P><b>Crew cut</b></P>
+        </div>
+        
+    </div>
+</body>
+</html>
